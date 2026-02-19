@@ -1,0 +1,7 @@
+export default function GstCalculator() {
+    return (
+        <div className="bg-blue-500 text-white p-10">
+            GST Calculator
+        </div>
+    )
+}

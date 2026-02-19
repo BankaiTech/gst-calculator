@@ -1,0 +1,175 @@
+@import "tailwindcss";
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Body Background */
+
+body {
+
+  font-family: 'Poppins', sans-serif;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+
+}
+
+
+/* Main Card */
+
+.calculator {
+
+  background: rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(20px);
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  width: 400px;
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.2);
+
+  color: white;
+
+}
+
+
+/* Title */
+
+.title {
+
+  font-size: 28px;
+
+  font-weight: 600;
+
+  margin-bottom: 25px;
+
+  text-align: center;
+
+}
+
+
+/* Input Group */
+
+.input-group {
+
+  margin-bottom: 20px;
+
+}
+
+
+/* Label */
+
+label {
+
+  font-size: 14px;
+
+  display: block;
+
+  margin-bottom: 6px;
+
+}
+
+
+/* Input Field */
+
+input {
+
+  width: 100%;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  border: none;
+
+  outline: none;
+
+  font-size: 16px;
+
+}
+
+
+/* Focus Effect */
+
+input:focus {
+
+  box-shadow: 0 0 0 2px #ffffff;
+
+}
+
+
+/* Button */
+
+button {
+
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  background: white;
+
+  color: #764ba2;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+
+  transition: 0.3s;
+
+}
+
+
+/* Button Hover */
+
+button:hover {
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/* Result */
+
+.result {
+
+  margin-top: 25px;
+
+  background: rgba(255, 255, 255, 0.15);
+
+  padding: 15px;
+
+  border-radius: 12px;
+
+}
+
+
+.result p {
+
+  margin-bottom: 6px;
+
+}
